@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta neme="viewport" content="with=device-width, initial-scale=1.0">
+	<title>HAPPY CLUB</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+	<nav>
+		<a href="blog.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="blog.html">BLOG</a></li>
+			<li><a href="articles.html">ARTICLES</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Blog</h1>
+
+		
+	</section>
+	
+<!-------- event page -------->
+	
+<section class="blog-content">
+	
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/jeju.jpg">
+			<h2>Positive Thinking</h2>
+			<p>Positive thinking is a mental and emotional attitude that focuses on the bright side of life and expects positive result. A positive person anticipates happiness, health, success and believe he/she can overcome any obstacle and difficult.</p>
+			<br>
+			<p>Positive thinking is not accepted by everyone. Some consider it as nonsense and scott at people who follow it. But there is a growing number of people who accept positive thinking as fact and believe in its effectiveness.</p>
+			<br>
+			<p>It seems that this subject is gaining popularity as evidenced by the many books, lectures and courses about it. To use it in your life you need more than just to be aware of its existence. You need to adopt the attitude of positive thinking in everything you do.</p>
+			<br>
+			<p>With a positive attitude we experience pleasant and happy feelings. This brings brightness to the eyes, more energy and happiness. Our whole being broadcast, happiness and success. Even our health is affected in a beneficial way.</p>
+			<br>
+			<p>To sum up, one who always think positively even in adverse circumstances, wins. ~Amandeep Kaur</p>
+			
+			<div class="comment-box">
+				
+				<h3>Leave a comment</h3>
+				
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="text" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your comment"></textarea>
+					<button tupe="submit" class="hero-btn red-btn">Post comment</button>
+				</form>
+			</div>
+		</div>
+		
+		<div class="blog-right">
+			<h3>To read more blogs</h3>
+			<div>
+				<span>Positive Thinking</span>
+				<span><div><ul><a href="blog.html">Blog1</a></ul></div></span>
+			</div>
+			<div>
+				<span>Nature Benefits</span>
+				<span><div><ul><a href="blog1.html">Blog2</a></ul></div></span>
+			</div>
+			<div>
+				<span>Self Care</span>
+				<span><div><ul><a href="blog2.html">Blog3</a></ul></div></span>
+			</div>
+			<div>
+				<span>Fitness</span>
+				<span><div><ul><a href="blog3.html">Blog4</a></ul></div></span>
+			</div>
+			<div>
+				<span>Beauty Tips</span>
+				<span><div><ul><a href="blog4.html">Blog5</a></ul></div></span>
+			</div>
+		
+		</div>
+	</div>
+	
+</section>
+
+	
+	
+	
+
+<!-------- footer ------->
+	
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Happy Club helps you connect to your true self so you can find inner happiness.</p>
+	<p>Stay Safe, Healthy and protect the environment.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Amandeep Kaur</p>
+</section>
+	
+
+	
+	
+	
+<!-------JavaScript for Toggle Menu------->	
+<script>
+	
+	var nabLink = document.getElementById("navLink");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	
+</script>
+	
+</body>
+</html>
